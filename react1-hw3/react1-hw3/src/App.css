@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  margin-top: 40px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+}
+
+.task-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.task-container input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+.task-container button {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
