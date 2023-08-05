@@ -1,0 +1,84 @@
+.App {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 5px;
+  outline: none;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #15c708;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  justify-content: space-between;
+  padding: 10px;
+  border: 2px solid #15c708;
+  border-radius: 10px;
+}
+
+li input {
+  flex: 1;
+  padding: 5px;
+}
+
+li button {
+  margin-left: 10px;
+  background-color: #dc3545;
+}
+
+.left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  word-break: break-all;
+  width: 254px;
+}
+
+.left input {
+  flex-grow: 0;
+  margin: 5px;
+  width: 13px;
+  height: 13px;
+}
+
+.left input:checked + span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.edit {
+  background-color: orange;
+}
