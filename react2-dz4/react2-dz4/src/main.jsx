@@ -7,8 +7,8 @@ import './index.css'
 import {App} from "./App.jsx";
 
 const initialState = {
-  name: 'Bogdan',
-  age: '16',
+  name: 'Ulanbek',
+  age: '19',
 }
 
 const formReducer = (state = initialState, action) => {
